@@ -72,3 +72,26 @@ Temporary Items
 .apdisk
 
 
+### https://raw.github.com/github/gitignore/db0ef78b5ad1d3caf4cab3240467562360885613/community/JavaScript/Vue.gitignore
+
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
+
+# TODO: where does this rule come from?
+docs/_book
+
+# TODO: where does this rule come from?
+test/
+
+
+### https://raw.github.com/github/gitignore/db0ef78b5ad1d3caf4cab3240467562360885613/Global/VisualStudioCode.gitignore
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+

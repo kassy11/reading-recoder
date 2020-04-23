@@ -6,6 +6,8 @@ import './plugins/element.js'
 
 Vue.config.productionTip = false
 
+// $httpでJSネイティブのfetchメソッドを呼び出せるように
+// API呼び出すため
 Vue.prototype.$http = (url, opts) => fetch(url, opts)
 
 new Vue({
